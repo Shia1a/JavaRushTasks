@@ -9,8 +9,7 @@ public class Solution {
     public static void main(String[] args) {
         int centimeters = 243;
 
-        int meters = 0;
-     //   int meters = 243/100; //напишите тут ваш код
+        int meters = centimeters / 100;
 
         System.out.println(meters);
     }
