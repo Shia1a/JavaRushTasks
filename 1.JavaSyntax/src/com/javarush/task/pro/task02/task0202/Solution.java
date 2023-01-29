@@ -10,7 +10,7 @@ public class Solution {
         int centimeters = 243;
 
         int meters = 0;
-        int meters = 243/100; //напишите тут ваш код
+     //   int meters = 243/100; //напишите тут ваш код
 
         System.out.println(meters);
     }
