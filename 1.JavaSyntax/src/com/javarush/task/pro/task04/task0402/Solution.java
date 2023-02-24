@@ -9,7 +9,13 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         String text = " любит меня.";
-        //напишите тут ваш код
-
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        int a = 0;
+        while (a < 10)  {
+                    System.out.println(name + text);
+            a++; }
+        }
     }
-}
+
+
