@@ -13,12 +13,14 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        for (int i = 0; i <= 9; i++) {
-            for (int m = 0; m <= 9; m++) {
+        for (int i = 0; i < 10; i++) {
+
+            for (int j = 0; j < 10; j++) {
                 System.out.print(land);
             }
-                System.out.println();
-            }
-        }
-  }
 
+            System.out.println(" ");
+        }
+    }
+
+}
