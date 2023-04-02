@@ -17,12 +17,12 @@ public class Solution {
             if (i == 8)
                 for(int n = 0; n < 10; n++)
                     if (n == 3)
-                        System.out.print(robot);
+                        System.out.print(" ");
                     else
                         System.out.print(land);
             for(int j = 0; j < 10; j++){
                 if (i >= 9)
-                    System.out.print(bug);
+                    System.out.print(death);
                 else if (i >= 0 && i != 8)
                     if (j != 3)
                         System.out.print(land);
